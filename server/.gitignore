@@ -16,3 +16,4 @@ node_modules
 
 # Environment config
 .env
+env_variables.yaml
