@@ -1,6 +1,6 @@
 variable "project_id" {
   type = string
-  default = "gcp-deploy-project-334813"
+  default = "<GCP project id>"
 }
 
 variable "region" {
@@ -10,5 +10,5 @@ variable "region" {
 
 variable "credentials_path" {
   type = string
-  default = "../../gcp-deploy-project-334813-5d9d672de0f9.json"
+  default = "<A path to a service account key file>"
 }
