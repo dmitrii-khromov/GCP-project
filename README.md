@@ -8,7 +8,7 @@ bought tickets.
 The web service is deployed to GCP as an App Engine service. It uses mongoDB Atlas to keep 
 collections of registered users and cinema tickets. New users can register in the service 
 to buy cinema tickets. The list of available cinema tickets, on the other hand, is static. 
-Administartion capabilities of the service (ability to manage the list of cinema tickets) 
+Administration capabilities of the service (ability to manage the list of cinema tickets) 
 is out of scope of the project.
 
 While deploying the service, terraform is used to create some resources on GCP.
